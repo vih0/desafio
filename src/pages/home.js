@@ -43,15 +43,14 @@ const Main = () =>{
                     </h1>
                     <p>Caso não tenha uma conta</p>
                     <a href ="/ ">registra-se aqui!</a>
+                    <img src ={Imghome} class = "ImageHome"></img>
                 </div>    
                 <div class = "login">
                     <input placeholder="Email" type ="email"></input>
                     <input placeholder="Senha" type ="password"></input>
                     <button class = "botoes">Acessar</button>
-
                 </div>
             </section>
-            <img src ={Imghome} class = "ImageHome"></img>
         </div>   
     );
 }

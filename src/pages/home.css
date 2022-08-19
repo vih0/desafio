@@ -1,24 +1,29 @@
 :root{
     font-size: 62.5%; /* 1rem = 10px */
     background-color: #D6D6D6;
+   
 }
 .container{
     display:flex;
     justify-content: space-around;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
 
 }
 .navegacao{
     list-style: none;
     display:flex;
     margin: 3.2rem 0;
+    cursor:pointer;
 }
  li{
     font-size:1.6rem;
     line-height:1.9rem;
     margin: 0 4rem ;
+    
 }
  .botoes button{
-    width:13.6rem;
+    width:14.6rem;
     height:5rem;
     margin:2rem;
     border:none;
@@ -26,25 +31,50 @@
     cursor:pointer;
     background-color: #0083FF;
     color:white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    
      
 }
 .botoes :hover{
     background-color: #D6D6D6;
     border: 0.2rem solid #0083FF;
     color: black;
+    font-weight: bold;
+    transition: 0.2s;
 }
 .container2{
     display:flex;
+    
+  
+
 }
 .informacoes{
-    font-size: 3.2rem;
-    margin: 0 20rem;
+    font-size: 2.2rem;
+    margin: 0 20rem ;
+    font-family: 'Inter', sans-serif;
+    display:flex;
+    flex-direction:column;
+   
+}
+.informacoes h1{
+    margin:15rem 0 0 0;
+}
+.informacoes p{
+    margin: 1rem 0 0 0;
+    font-size:1.6rem;
+}
+.informacoes a{
+    text-decoration: none;
+    color:#0083FF;
+    font-size: 1.6rem;
 }
 .ImageHome{
     height: 24rem;
     width:26.2rem;
-    margin: 1rem 48rem;
+    margin: 2rem 0 0 15rem;
 }
+
 .container2 .login{
     display:flex;
     flex-direction:column;
@@ -53,25 +83,35 @@
     padding: 5rem;
 
 }
+.login{
+margin: 10rem 0 0 15.5rem;
+}
 .login input{
     padding: 1.8rem;
     border: none;
     margin: 1rem 0;
     border-radius: 1rem;
-    outline: none;
+    outline: solid 0.2rem #C2C9D1 ;
+    font-family: 'Inter', sans-serif;
+    
 }
 .container2 button{
     width:33rem;
     height:5.6rem;
-    margin:1rem 0;
+    margin:5rem 0;
     padding: 1.8rem;
     border:none;
     border-radius: 0.8rem;
     cursor:pointer;
     background-color: #0083FF;
     color:white;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    
+    
 }
 .container2 button:hover{
+    transition: 0.2s;
     background-color: #D6D6D6;
     border: 0.2rem solid #0083FF;
     color: black;
