@@ -1,5 +1,6 @@
 :root{
     font-size: 62.5%; /* 1rem = 10px */
+    background-color: #D6D6D6;
 }
 .container{
     display:flex;
@@ -24,11 +25,54 @@
     border-radius: 0.8rem;
     cursor:pointer;
     background-color: #0083FF;
-    color:white; 
+    color:white;
+     
 }
 .botoes :hover{
-    background-color: #fff;
+    background-color: #D6D6D6;
     border: 0.2rem solid #0083FF;
     color: black;
 }
+.container2{
+    display:flex;
+}
+.informacoes{
+    font-size: 3.2rem;
+    margin: 0 20rem;
+}
+.ImageHome{
+    height: 24rem;
+    width:26.2rem;
+    margin: 1rem 48rem;
+}
+.container2 .login{
+    display:flex;
+    flex-direction:column;
+    width: 33rem;
+    height: 5.6rem;
+    padding: 5rem;
 
+}
+.login input{
+    padding: 1.8rem;
+    border: none;
+    margin: 1rem 0;
+    border-radius: 1rem;
+    outline: none;
+}
+.container2 button{
+    width:33rem;
+    height:5.6rem;
+    margin:1rem 0;
+    padding: 1.8rem;
+    border:none;
+    border-radius: 0.8rem;
+    cursor:pointer;
+    background-color: #0083FF;
+    color:white;
+}
+.container2 button:hover{
+    background-color: #D6D6D6;
+    border: 0.2rem solid #0083FF;
+    color: black;
+}

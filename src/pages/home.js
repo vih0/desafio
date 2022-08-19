@@ -1,6 +1,7 @@
 import React from 'react';
-import Imghome from '../assets/home_page.png'
-import '../pages/home.css'
+import Imghome from '../assets/home_page.png';
+import '../pages/home.css';
+
 
 function Home(){
     return (
@@ -22,8 +23,9 @@ return(
                 <li>Contato</li>
             </nav>
             <div class = "botoes">
-                <button class = "botaoLogin">Login</button>
-                <button class = "botaoCadastro">Cadastro</button>
+                <button class = "botao">Login</button>
+                <button class = "botao">Cadastro</button>
+
             </div>  
     </div> 
     </header>
@@ -34,23 +36,24 @@ return(
 const Main = () =>{
     return (
        <div>
-            <section class = "informacoes">
+            <section class = "container2">
+                <div class = "informacoes">   
                     <h1>
-                    Faça login e acesse 
-                    a nossa plataforma
-                    de cursos
+                    Faça login e acesse <br/> a nossa plataforma<br/> de cursos
                     </h1>
                     <p>Caso não tenha uma conta</p>
-                    <a href =" ">registra-se aqui!</a>
+                    <a href ="/ ">registra-se aqui!</a>
+                </div>    
                 <div class = "login">
                     <input placeholder="Email" type ="email"></input>
                     <input placeholder="Senha" type ="password"></input>
+                    <button class = "botoes">Acessar</button>
+
                 </div>
             </section>
-            <img src ={Imghome}></img>
+            <img src ={Imghome} class = "ImageHome"></img>
         </div>   
     );
 }
-
 
 export default Home;
