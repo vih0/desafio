@@ -1,9 +1,15 @@
 import React from "react";
 
-const Cursos
+const Cursos = (props) => {
+    return(
+      <div class = "container">
+           <div class = "card">
+                <div></div>
+           </div> 
+      </div>  
+    );
 
-
-
+}
 
 
 function Welcome() {
