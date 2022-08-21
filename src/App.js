@@ -18,8 +18,19 @@ function App(){
   return(
     <div>
       <h1>Lista de Equipe </h1>
-      <Equipe nome = "eu " idade ="15" cargo = "estudante" />
+        <Icone/>
     </div>
   );
 }
+const Icone = ()=>{
+  return(
+    <div>
+        
+    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="14.7156" cy="15.2406" r="14.6844" fill="#878787"/>
+    </svg>
+    </div>
+  );
+}
+
 export default App;
