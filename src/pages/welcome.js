@@ -12,9 +12,11 @@ import avatar3 from '../assets/avatar3.png';
 import avatar5 from '../assets/avatar5.png';
 import avatar6 from '../assets/avatar6.png';
 import avatar7 from '../assets/avatar7.png';
+import {FaBook} from 'react-icons/fa';
 
+import {FiBookmark} from 'react-icons/fi';
 
-import {BiBookAlt,BiHeart} from 'react-icons/bi';
+import {BiHeart} from 'react-icons/bi';
 
 // criando cards reutilizaveis 
 const Cursos = (props) => {
@@ -44,12 +46,13 @@ const Dados = (props) => {
 function Welcome(){
     return(
         <section class = "container2">
-            <p>Seja bem vindo,<br/> <strong>Marcos</strong></p>
+            <p>Seja bem vindo,<br/> <strong class="Name">Marcos</strong></p>
+            <h1><FiBookmark color="#0083FF" size="18"/>Cursos</h1>
             <div class ="filtros">
-                <Filtro icon={<BiBookAlt size="20" color="#878787"/>} filter="Recentes" />
-                <Filtro icon={<BiBookAlt size="20" color="#878787"/>} filter="Grátis" />
-                <Filtro icon={<BiBookAlt size="20" color="#878787"/>} filter="Popular" />
-                <Filtro icon={<BiBookAlt size="20" color="#878787"/>} filter="Pagos" />
+                <Filtro icon={<FaBook size="20" color="#878787"/>} filter="Recentes" />
+                <Filtro icon={<FaBook size="20" color="#878787"/>} filter="Grátis" />
+                <Filtro icon={<FaBook size="20" color="#878787"/>} filter="Popular" />
+                <Filtro icon={<FaBook size="20" color="#878787"/>} filter="Pagos" />
             </div>
 
            
