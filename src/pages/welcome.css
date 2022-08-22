@@ -1,6 +1,6 @@
 :root{
     font-size: 62.5%; /* 1rem = 10px */
-    background-color: #D6D6D6;
+    background-color: #F5F5F5;
 }
 .container{
     border: 0.2rem solid #8E8D8D;
@@ -15,8 +15,7 @@
     font-size: 14px;
     line-height: 17px;
     text-decoration-line: underline;
-
-color: #515151;
+    color: #515151;
 }
 .card h2{
     font-size:1.4rem;
@@ -56,13 +55,32 @@ color: #515151;
 .container2{
     display:flex;
     flex-direction:column;
-}.filtro{
+}
+.container2 .saudacoes{
+    font-size: 1.4rem;
+    color: #909090;
+    font-family: 'Inter';
+
+}
+.container2 .Name{
+    font-size:2rem;
+    font-family: 'Inter';
+    color:#515151;
+}
+.container2 h1{
+    color:#0083FF;
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size:1.6rem;
+    margin: 1rem 2rem;
+}
+.filtro{
     display:flex;
     width: 9.3rem;
     height:4rem;
     border: 0.2rem solid #8E8D8D;
     border-radius: 1.7rem;
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: #515151;
     font-family: 'Inter';
     font-weight: 500;

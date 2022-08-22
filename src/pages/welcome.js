@@ -46,8 +46,8 @@ const Dados = (props) => {
 function Welcome(){
     return(
         <section class = "container2">
-            <p>Seja bem vindo,<br/> <strong class="Name">Marcos</strong></p>
-            <h1><FiBookmark color="#0083FF" size="18"/>Cursos</h1>
+            <p class =" saudacoes">Seja bem vindo,<br/> <strong class="Name">Marcos</strong></p>
+            <h1><FiBookmark color="#0083FF" size="15"/>Cursos</h1>
             <div class ="filtros">
                 <Filtro icon={<FaBook size="20" color="#878787"/>} filter="Recentes" />
                 <Filtro icon={<FaBook size="20" color="#878787"/>} filter="Grátis" />

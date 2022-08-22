@@ -1,6 +1,7 @@
 import React from 'react';
 import Imghome from '../assets/home_page.png';
 import '../pages/home.css';
+import Welcome from './welcome';
 
 
 function Home(){
@@ -15,7 +16,7 @@ const Header =() => {
 return(
    <div>
    <header>
-    <div class = "container">    
+    <div class = "containerHome">    
             <nav class = "navegacao">
                 <li>Home</li>
                 <li>Sobre</li>
@@ -36,7 +37,7 @@ return(
 const Main = () =>{
     return (
        <div>
-            <section class = "container2">
+            <section class = "container2Home">
                 <div class = "informacoes">   
                     <h1>
                     Faça login e acesse <br/> a nossa plataforma<br/> de cursos
@@ -48,7 +49,7 @@ const Main = () =>{
                 <div class = "login">
                     <input placeholder="Email" type ="email"></input>
                     <input placeholder="Senha" type ="password"></input>
-                    <button class = "botoes">Acessar</button>
+                    <button class = "botoes" >Acessar</button>
                 </div>
             </section>
         </div>   
