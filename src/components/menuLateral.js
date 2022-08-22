@@ -7,8 +7,9 @@ import {BsFillBookmarkFill,BsFillPersonFill,BsFillGearFill,BsFillInfoCircleFill,
 function MenuLateral(){
     return(
         <div>
-            <div>
-                <nav>
+            <div class ="conteudoLateral">
+                    <Information name ="Marcos" Email ="marcos@gmail.com"/>
+                <nav class = "navegacaoLateral">
                     <li><RiHome2Fill/>Home</li>
                     <li><BsFillBookmarkFill/>Cursos</li>
                     <li><BsFillPersonFill/>Perfil</li>
@@ -20,5 +21,13 @@ function MenuLateral(){
             </div>
         </div>
     );
+}
+const Information = (props) =>{
+    return(
+        <div class = "Information">
+            <p>{props.name}<br/>{props.Email}</p>
+        </div>
+    );
+
 }
 export default MenuLateral;
