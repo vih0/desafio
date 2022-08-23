@@ -5,7 +5,7 @@
     width: 17rem; 
     height: 24.1rem;
     display:flex;
-    margin: 1.3rem 1.5rem;
+    margin: 1.3rem 1.5rem 0 1rem;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
@@ -51,16 +51,19 @@
 
 .containerMain{
     display:flex;
-    margin: 3rem 4rem;
+    margin: 1rem 4rem;
 }
 .teste{
     display:flex;
     flex-direction:column;
+    margin: 0 4rem;
+
 }
 .containerMain .saudacoes{
     font-size: 1.4rem;
     color: #909090;
     font-family: 'Inter';
+    margin:2rem  ;
 
 }
 .containerMain .Name{
@@ -87,7 +90,7 @@
     font-weight: 500;
     align-items: center;
     justify-content: space-around;
-    margin: 2rem;
+    margin: 0 0.5rem 1rem 2rem;
     padding: auto;
 }
 .filtros{
