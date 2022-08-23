@@ -1,0 +1,27 @@
+.conteudoLateral{
+    font-family:'Inter';
+    border: 0.15rem solid  #DDDDDD;
+    width:20rem;
+    height:80vh;
+    color :#E6E6E6;
+    border-radius:2rem;
+    
+}
+.navegacaoLateral{
+    list-style: none;
+    font-size: 1.4rem;
+    color:#878787;
+
+}
+
+.nameL{
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: 'Inter';
+    margin: 0 2rem;
+}
+.Information{
+    background-color: #0083FF;
+    border-radius: 1rem;
+    margin: 1rem;
+}

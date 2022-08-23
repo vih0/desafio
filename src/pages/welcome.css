@@ -1,7 +1,4 @@
-:root{
-    font-size: 62.5%; /* 1rem = 10px */
-    background-color: #F5F5F5;
-}
+
 .container{
     border: 0.2rem solid #8E8D8D;
     border-radius:2rem;
@@ -25,16 +22,16 @@
     font-size:0.8rem;
     margin: 1.4rem 3rem 0 0.5rem;
 }
-.card .teste{
+.card .box{
     display:flex;
     margin:0 0.3rem 0.1rem 1.3rem;
       
 }
 .card img{
-    width: 17.4rem;
-    
+    width: 17rem;
+
 }
-.card .teste img{
+.card .box img{
     width:2rem;
     height:2rem;
     margin: 1rem 0;
@@ -52,22 +49,26 @@
     display:flex;
 }
 
-.container2{
+.containerMain{
+    display:flex;
+    margin: 3rem 4rem;
+}
+.teste{
     display:flex;
     flex-direction:column;
 }
-.container2 .saudacoes{
+.containerMain .saudacoes{
     font-size: 1.4rem;
     color: #909090;
     font-family: 'Inter';
 
 }
-.container2 .Name{
+.containerMain .Name{
     font-size:2rem;
     font-family: 'Inter';
     color:#515151;
 }
-.container2 h1{
+.containerMain h1{
     color:#0083FF;
     font-family: 'Inter';
     font-weight: bold;

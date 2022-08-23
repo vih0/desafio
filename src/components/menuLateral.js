@@ -1,10 +1,11 @@
 import React from 'react';
+import './menuLateral.css';
 import {RiHome2Fill,RiLogoutBoxRLine} from 'react-icons/ri';
 import {BsFillBookmarkFill,BsFillPersonFill,BsFillGearFill,BsFillInfoCircleFill,} from 'react-icons/bs';
 
 
 
-function MenuLateral(){
+const MenuLateral =() => {
     return(
         <div>
             <div class ="conteudoLateral">
@@ -25,7 +26,8 @@ function MenuLateral(){
 const Information = (props) =>{
     return(
         <div class = "Information">
-            <p>{props.name}<br/>{props.Email}</p>
+            <p class="nameL">{props.name}</p>
+            <p class="email">{props.Email}</p>
         </div>
     );
 
