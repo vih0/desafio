@@ -11,12 +11,12 @@ const MenuLateral =() => {
             <div class ="conteudoLateral">
                     <Information name ="Marcos" Email ="marcos@gmail.com"/>
                 <nav class = "navegacaoLateral">
-                    <li><RiHome2Fill/>Home</li>
-                    <li><BsFillBookmarkFill/>Cursos</li>
-                    <li><BsFillPersonFill/>Perfil</li>
-                    <li><BsFillGearFill/>Configurações</li>
-                    <li><BsFillInfoCircleFill/>Sobre</li>
-                    <li><RiLogoutBoxRLine/>Sair</li>
+                    <li><span><RiHome2Fill/></span> Home</li>
+                    <li><span><BsFillBookmarkFill/></span> Cursos</li>
+                    <li><span><BsFillPersonFill/> </span>Perfil</li>
+                    <li><span><BsFillGearFill/> </span>Configurações</li>
+                    <li><span><BsFillInfoCircleFill/></span> Sobre</li>
+                    <li><span><RiLogoutBoxRLine/></span> Sair</li>
 
                 </nav>
             </div>

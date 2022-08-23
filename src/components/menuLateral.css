@@ -1,27 +1,48 @@
 .conteudoLateral{
     font-family:'Inter';
-    border: 0.15rem solid  #DDDDDD;
+    border: 0.2rem solid  #DDDDDD;
     width:20rem;
-    height:80vh;
-    color :#E6E6E6;
+    height:90vh;
+    color :#F5F5F5;
     border-radius:2rem;
+    align-items: center;
+    padding: 1rem;
     
 }
-.navegacaoLateral{
+.navegacaoLateral li{
     list-style: none;
     font-size: 1.4rem;
     color:#878787;
-
+    margin: 2rem ;
+    padding: 1rem;
+    align-items: center;
 }
-
+.navegacaoLateral span{
+    margin: 0 2rem 0 0;
+}
 .nameL{
     font-size: 1.6rem;
     font-weight: bold;
     font-family: 'Inter';
-    margin: 0 2rem;
+    margin: 0.5rem 2rem 0 1rem;
+}
+.email{
+    margin: 0.5rem 2rem 0 1rem;
 }
 .Information{
     background-color: #0083FF;
     border-radius: 1rem;
     margin: 1rem;
+    width:17.5rem;
+    height:5.6rem;
+    padding:0.5rem 0;
+}
+.navegacaoLateral li:hover{
+    background-color: #0083FF;
+    color:#F5F5F5;
+    cursor: pointer;
+    padding:1rem;
+    border-radius: 0.5rem;
+    transition: 0.2s;
+
 }
