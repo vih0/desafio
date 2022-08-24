@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import Imghome from '../assets/home_page.png';
 import '../pages/home.css';
 import Welcome from './welcome';
@@ -35,6 +36,10 @@ return(
 }
 
 const Main = () =>{
+    const Navigate = useNavigate()
+    const GoCourses = () =>{
+        Navigate('/cursos')
+    }
     return (
        <div>
             <section class = "container2Home">
@@ -49,7 +54,7 @@ const Main = () =>{
                 <div class = "login">
                     <input placeholder="Email" type ="email"></input>
                     <input placeholder="Senha" type ="password"></input>
-                    <button class = "botoes" >Acessar</button>
+                    <button class = "botoes" onClick={GoCourses}>Acessar</button>
                 </div>
             </section>
         </div>   

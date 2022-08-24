@@ -19,6 +19,8 @@ import {FiBookmark} from 'react-icons/fi';
 import {BiHeart} from 'react-icons/bi';
 
 import MenuLateral from '../components/menuLateral';
+import BarraPesquisa from '../components/barraPesquisa';
+
 
 
 // criando cards reutilizaveis 
@@ -76,7 +78,9 @@ function Welcome(){
                         <Dados imagem ={card7} curso ="Mastering JS with Laravel" avatar ={avatar7} professor ="Deny S" like={<BiHeart size= "18" color="black"/>}/> 
                     </div>
                 </div>
+
              </div>
+            <BarraPesquisa/>
         </section>  
         
     );
