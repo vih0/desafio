@@ -1,3 +1,23 @@
 .barraPesquisa{
     display:flex;
+    height: 8rem;
+    align-items: center;
+}
+.barraPesquisa input{
+    border:none;
+    outline:none;
+    width:20rem;
+    height:4rem;
+    background-color: #F5F5F5;
+}
+.search{
+    border: 0.2rem solid #DDDDDD;
+    border-radius: 1rem;
+    padding: 0.3rem;
+}
+.Icones{
+    display:flex;
+    flex-direction: row-reverse;
+    margin: 1rem;
+
 }
