@@ -20,19 +20,21 @@ import {BiHeart} from 'react-icons/bi';
 
 import MenuLateral from '../components/menuLateral';
 import BarraPesquisa from '../components/barraPesquisa';
-import { useNavigate } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 
 
 
 // criando cards reutilizaveis 
 const Cursos = (props) => {
-    const Navigate = useNavigate()
+    const navigate = useNavigate()
     const GoCourses = () =>{
-        Navigate('/cursos/detalhes')
+        navigate('/detalhes')
     }
     return(
       <div class = "container">
-           <div class = "card" onclick ={GoCourses}>
+           
+
+           <div class = "card" onClick={GoCourses} >
                     <img src={props.imagem}></img>
                     <h2>{props.curso}</h2>
                     <div class = "box">
@@ -40,6 +42,7 @@ const Cursos = (props) => {
                         <p>{props.professor}</p>
                         <span>{props.like}</span>
                     </div>
+           
            </div>
       </div>  
     );

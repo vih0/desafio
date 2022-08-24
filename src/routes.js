@@ -7,9 +7,8 @@ const Rotas =()=>{
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Home/>}/>
-                <Route path="/cursos" element={<Welcome/>}/>
-                <Route path="/cursos/detalhes" element={<DetalhesPage/>}/>
-
+                    <Route path="/cursos" element={<Welcome/>}/>
+                    <Route path="/detalhes" element={<DetalhesPage/>}/>
 
 
             </Routes>
