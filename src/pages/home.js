@@ -2,7 +2,6 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Imghome from '../assets/home_page.png';
 import '../pages/home.css';
-import Welcome from './welcome';
 
 
 function Home(){

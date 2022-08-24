@@ -20,14 +20,19 @@ import {BiHeart} from 'react-icons/bi';
 
 import MenuLateral from '../components/menuLateral';
 import BarraPesquisa from '../components/barraPesquisa';
+import { useNavigate } from 'react-router-dom';
 
 
 
 // criando cards reutilizaveis 
 const Cursos = (props) => {
+    const Navigate = useNavigate()
+    const GoCourses = () =>{
+        Navigate('/cursos/detalhes')
+    }
     return(
       <div class = "container">
-           <div class = "card">
+           <div class = "card" onclick ={GoCourses}>
                     <img src={props.imagem}></img>
                     <h2>{props.curso}</h2>
                     <div class = "box">
@@ -49,6 +54,7 @@ const Dados = (props) => {
 }
 //  imprementando os cards reutilizaveis e dividindo pra ficar facil de estilizar 
 function Welcome(){
+    
     return(
         <section class = "containerMain">
             <MenuLateral/>
